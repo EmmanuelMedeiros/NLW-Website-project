@@ -100,7 +100,7 @@
         </div>
         </nav>
 
-        <header>
+        <header class="header">
             <div class="wrapper">
                 <h3>BOAS-VINDAS A DOCTORCARE 👋</h3>
                 <h1>Assistência médica simplificada para todos</h1>
@@ -278,33 +278,26 @@
     </div>
 </body>
 <script src="script.js"></script>
+
 <script src="https://unpkg.com/scrollreveal"></script>
-
-
-<!--Scroll Reveal section-->
-<script> ScrollReveal({
-    origin: 'right',
-    distance: '300px',
-    duration: 700}).reveal('#hamburgerMenu') </script>
 
 <script> ScrollReveal({
     origin: 'top',
     distance: '100px',
-    duration: 1100}).reveal('header .wrapper, #services, #aboutUs, #contact') </script>
+    duration: 800}).reveal('header .wrapper, #services .wrapper, #aboutUs .wrapper, #contact') </script>
 
-<script> ScrollReveal({
-    origin: 'left',
-    distance: '400px',
-    duration: 500}).reveal('#stat1, #list2') </script>
+    <script> ScrollReveal({
+        origin: 'left',
+        distance: '300px',
+        duration: 700}).reveal('#stat1')</script>
 
 <script> ScrollReveal({
     origin: 'right',
-    distance: '400px',
-    duration: 700}).reveal('#stat2, #list1') </script>
+    distance: '300px',
+    duration: 700}).reveal('#stat2')</script>
 
 <script> ScrollReveal({
     origin: 'bottom',
-    distance: '400px',
-    duration: 900}).reveal('#stat3, #list3') </script>
+    distance: '300px',
+    duration: 700}).reveal('#stat3')</script>
 </html>
-<!--Scroll Reveal section-->
